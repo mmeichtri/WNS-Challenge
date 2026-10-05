@@ -1,0 +1,21 @@
+services:
+  app:
+    build:
+      context: .
+      target: runtime
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: sqlite:////app/data/app.db
+      LOG_LEVEL: INFO
+    volumes:
+      - app-data:/app/data
+
+  tests:
+    build:
+      context: .
+      target: test
+    profiles: ["test"]
+
+volumes:
+  app-data:

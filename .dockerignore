@@ -1,0 +1,15 @@
+# Lo que no tiene que entrar al contexto de build (ni a la imagen).
+.git/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Config local y base generada: la imagen usa sus propias variables y volumen.
+.env
+data/
+
+__MACOSX/
+.vscode/
+.idea/

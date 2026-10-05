@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Entorno virtual
+.venv/
+venv/
+
+# Variables de entorno locales (se versiona .env.example)
+.env
+
+# Base de datos SQLite (se genera al levantar la app)
+data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Tests y coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Caches de linters y type checkers
+.mypy_cache/
+.ruff_cache/
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+__MACOSX/
