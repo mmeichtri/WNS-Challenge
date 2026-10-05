@@ -194,6 +194,9 @@ Qué se prueba:
   No hay sinónimos.
 - **Precios:** son por kg, en pesos enteros, y no cambian en el tiempo (lo dice la consigna).
 - **Platos similares:** cuentan todos los ingredientes compartidos, incluidos los "a gusto".
+- **Formato de los archivos:** se asume que la planilla de carnes mantiene los títulos "Carnicería" y
+  "Pescadería", y que cada receta tiene una sección de ingredientes y otra de instrucciones. Si falta alguna,
+  la ingesta lo informa como rechazo.
 
 ## Limitaciones
 

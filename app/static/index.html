@@ -252,8 +252,6 @@
   }
 
   async function init() {
-    // El calendario no limita fechas: el rango de 30 días lo valida el backend
-    // y, si la fecha no es válida, se muestra su mensaje de error.
     $("date").value = isoDate(new Date());
 
     try {
